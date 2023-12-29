@@ -65,7 +65,9 @@ int main(void)
 gcc test.c -o test -lrt
 ```
 ![Alt text](image.png)
+
 运行以后可以看到执行了ls，当然我们去/dev/shm下也能够看到这个文件，和memfd一模一样我们能够在bash中执行这个二进制
+
 ![Alt text](image-1.png)
 
 Ref:https://xeldax.top/article/linux_no_file_elf_mem_execute
